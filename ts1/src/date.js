@@ -1,0 +1,11 @@
+"use strict";
+var d = new Date();
+console.log(d);
+var d2 = new Date(1000);
+console.log(d2);
+var d3 = new Date("2020/08/01 05:30:00");
+var d4 = new Date("2020-08-01 08:00:00");
+var d5 = new Date("2020-08-01T08:00:00");
+console.log(d3);
+console.log(d4);
+console.log(d5);
