@@ -19,7 +19,7 @@ function rename(oldPath, newPath) {
 }
 run(PATH, function (path, fileName) {
     var oldPath = path + '/' + fileName, // 源文件路径
-        newPath = path + '/' + fileName.replace('demo-', ''); // 新路径
-    console.log(newPath);
+    newPath = path + '/' + fileName.replace('demo-', ''); // 新路径
+    // console.log(newPath);
     rename(oldPath, newPath);
 });

@@ -17,3 +17,7 @@ npm i typescript -g
 1. get-ExecutionPolicy
 2. Set-ExecutionPolicy -Scope CurrentUser[Set-ExecutionPolicy -Scope CurrentUser]
 3. RemoteSigned
+
+## 工具
+
++ node-ts 帮助ts直接运行

@@ -23,9 +23,9 @@ function rename(oldPath: string, newPath: string) {
     });
 }
 
-run(PATH, function (path, fileName) {
+run(PATH, function (path: string, fileName: string) {
     var oldPath = path + '/' + fileName, // 源文件路径
         newPath = path + '/' + fileName.replace('demo-', ''); // 新路径
-    console.log(newPath);
+    // console.log(newPath);
     rename(oldPath, newPath);
 })
